@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250">
+  <style>
+    .eyes { transform-box: fill-box; transform-origin: center; animation: blink 4.6s ease-in-out infinite; }
+    @keyframes blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
+    .serif { font-family: Fraunces, "Iowan Old Style", Georgia, "Times New Roman", serif; }
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+  <rect width="880" height="250" rx="24" fill="#f6f6f3"/>
+  <circle cx="148" cy="125" r="96" fill="#ebebe7"/>
+
+  <g transform="translate(66 40) scale(4) translate(-7.6 -2)">
+    <g fill="#fff" stroke="#1b1e24" stroke-width="1.5" stroke-linecap="round">
+      <path d="M11.8 26.4c-2.4-.2-3 3.9-.3 4.6"/><path d="M36.2 26.4c2.4-.2 3 3.9.3 4.6"/>
+    </g>
+    <ellipse cx="24" cy="28.2" rx="12.4" ry="14.2" fill="#fff" stroke="#1b1e24" stroke-width="1.8"/>
+    <path d="M10.6 27.4C8.8 19.6 11.6 11.4 18.6 9.2c2.2-2.6 6.6-3.4 9.8-1.6 3.6-.4 7.2 1.8 8.6 5.4 2.4 3 2.4 8.4.6 13.4-.9-3.4-2.6-5.6-5-6.6-1.4 2.6-4.8 4-8.6 3.6 1.2-1.2 1.6-2.6 1.2-3.8-2.8 2.6-7.6 3.8-11.8 3.2-1.6 1.4-2.4 3-2.8 4.6z" fill="#1b1e24"/>
+    <path d="M17.2 10.6c-1.6-1.4-1.4-3.4.4-4.2M24.4 7.4c.2-1.8 1.8-2.8 3.6-2.2" fill="none" stroke="#1b1e24" stroke-width="1.2" stroke-linecap="round"/>
+    <g fill="#fff" stroke="#1b1e24" stroke-width="1.6" stroke-linejoin="round">
+      <rect x="13.6" y="24.8" width="8.8" height="6.4" rx="1.6"/><rect x="25.6" y="24.8" width="8.8" height="6.4" rx="1.6"/>
+    </g>
+    <path d="M22.4 27.2h3.2" stroke="#1b1e24" stroke-width="1.4"/>
+    <g class="eyes" fill="#1b1e24"><circle cx="18" cy="28" r="1.2"/><circle cx="30" cy="28" r="1.2"/></g>
+    <path d="M19.8 35.6c2.3 2.1 6.1 2.1 8.4 0" fill="none" stroke="#1b1e24" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <text x="290" y="112" class="serif" font-size="56" font-weight="700" fill="#1b1e24">Hi, I'm Rohan</text>
+  <text x="290" y="148" class="serif" font-size="27" fill="#6a6f78">Curiosity is my whole personality.</text>
+  <text x="290" y="196" class="sans" font-size="16" fill="#6a6f78">Software Developer · SAP Research &amp; Innovation · Bay Area</text>
+  <text x="290" y="222" class="mono" font-size="13" fill="#9a9ea6">fine-tuning · agents · retrieval · the odd chest X-ray</text>
+</svg>

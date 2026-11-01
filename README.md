@@ -1,75 +1,58 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
+  <img alt="Hi, I'm Rohan. Curiosity is my whole personality." src="assets/banner-light.svg" width="100%" />
+</picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=120&section=header" />
+<p>
+  <a href="https://rohanwaghmare.com">rohanwaghmare.com</a> ·
+  <a href="https://linkedin.com/in/rohanwaghmare">LinkedIn</a> ·
+  <a href="https://rohanwaghmare.com/resume">Resume</a> ·
+  <a href="mailto:waghmarerohan30@gmail.com">Email</a>
+</p>
 
-<h1>Rohan Waghmare</h1>
+### Welcome, fellow wanderer
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=AI+Engineer+%26+Software+Developer;LLM+Fine-tuning+%7C+RAG+%7C+Agentic+Systems;Building+production+GenAI+at+scale" alt="Typing SVG" /></a>
+A storyteller who got hooked on solving problems, and ended up writing code for both.
 
-<br/><br/>
+I'm a software engineer on **SAP's Research & Innovation** team in the Bay Area, fine-tuning our own models and building AI agents that work inside real systems. Before that I worked on healthcare data and clinical search at MiHIN, did my MS in CS at Binghamton, and grew up in Pune, India.
 
-[![Portfolio](https://img.shields.io/badge/rohanwaghmare.com-58A6FF?style=flat-square&logo=safari&logoColor=white)](https://rohanwaghmare.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohanwaghmare)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:waghmarerohan30@gmail.com)
+### Work
 
-</div>
+Each one has a full case study, with a pipeline you can run and a trace you can scrub.
 
----
+| | | |
+|---|---|---|
+| **SAP** | [Replacing a GPT pipeline with models we own](https://rohanwaghmare.com/work/sap) | p95 90s → 11s, 10× cheaper |
+| **SAP** | [Letting agents write to systems that matter](https://rohanwaghmare.com/work/sap/agents) | 1.5 days → 5 min |
+| **SAP** | [Training on agent runs too long to fit](https://rohanwaghmare.com/work/sap/training-data) | 16K → 63K tokens, 8× B200 |
+| **MiHIN** | [Getting healthcare data where it needs to go](https://rohanwaghmare.com/work/mihin) | 40% faster ingestion |
+| **MiHIN** | [Mapping physician notes in minutes, not hours](https://rohanwaghmare.com/work/mihin/clinical-rag) | 4 hr → 10 min |
 
-### About
+### Projects
 
-Software Developer with 2 years of experience shipping production GenAI systems — agentic pipelines, RAG architectures, LLM fine-tuning, and MLOps across GCP, AWS, and SAP BTP. Currently at **SAP Labs** building knowledge-graph RAG and fine-tuned inference pipelines at scale.
+| | | |
+|---|---|---|
+| [Agentic Tool Orchestrator](https://github.com/ron103/Agentic-Tool-Orchestrator) | Routing an agent across 191 tools in 7 services | [story](https://rohanwaghmare.com/projects/orchestrator) |
+| [Industry Layoff Tracker](https://github.com/ron103/industry-specific-layoff-tracker) | 200k+ posts a month on how people feel about layoffs | [story](https://rohanwaghmare.com/projects/layoff-tracker) |
+| [Kalshi paper-trading agent](https://github.com/ron103/claude-polymarket-bot) | An hourly agent that researches prediction markets | [story](https://rohanwaghmare.com/projects/kalshi-agent) |
+| [Clockin](https://github.com/ron103/clockin) | Shift tracking on iPhone and Apple Watch | [story](https://rohanwaghmare.com/projects/clockin) |
+| [TB detection research](https://ieeexplore.ieee.org/document/10112352) | 92% on TBX11K, published at IEEE | [story](https://rohanwaghmare.com/projects/tb-detection) |
 
----
+### Notes
 
-### Tech Stack
+- [Embed less, find more](https://rohanwaghmare.com/notes/embed-less)
+- [The teacher was confidently wrong](https://rohanwaghmare.com/notes/gold-labels)
+- [Every agent write needs a name on it](https://rohanwaghmare.com/notes/agents-in-prod)
+- [Too long to train on](https://rohanwaghmare.com/notes/too-long-to-train)
 
-**AI / ML**
+### Little things
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-000000?style=flat-square&logoColor=white)
+- Once accidentally ended up at the pyramids.
+- I can explain anything like you're five.
+- Fiction nerd. Currently deep in *Dungeon Crawler Carl*.
 
-**Cloud & Infra**
-
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-
-**Backend & Data**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
----
-
-### GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=ron103&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ron103&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&langs_count=6" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ron103&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
-
-</div>
+<sub>Python · PyTorch · vLLM · LangGraph · MCP · TypeScript · FastAPI · Docker · Kubernetes · AWS · GCP</sub>
 
 ---
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=80&section=footer" />
-</div>
+If you've read this far, we'd probably get along. [Say hi.](mailto:waghmarerohan30@gmail.com)
